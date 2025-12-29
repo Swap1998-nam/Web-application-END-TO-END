@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/Swap1998-nam/Web-application-END-TO-END-.git'
             }
         }
