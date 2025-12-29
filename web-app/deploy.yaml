@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-deploy-app
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: my-app
@@ -30,3 +30,4 @@ spec:
   - port: 80
     targetPort: 80
     nodePort:32626
+
